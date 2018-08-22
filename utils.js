@@ -10,6 +10,3 @@ String.prototype.matchAll = String.prototype.matchAll || function (pattern) {
 }
 var stringToTest = '<<INVALID FIELD [[Test]]>> test <<INVALID FIELD [[test]]>> <<INVALID FIELD [[test]]>>'
 console.log(stringToTest.matchAll(/<<.*?\[\[(.*?)(\]\])>>/g))
-
-
-export default utils

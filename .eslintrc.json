@@ -1,0 +1,46 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 5,
+    "sourceType": "script"
+  },
+  "globals": {
+    "$": true,
+    "jQuery": true,
+    "toastr": true,
+    "doGet": true,
+    "AppSys": true,
+    "StringBuilder": true
+  },
+  "extends": "eslint:recommended",
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "comma-dangle": ["error", {
+        "arrays": "only-multiline",
+        "objects": "only-multiline",
+        "imports": "never",
+        "exports": "never",
+        "functions": "ignore"
+    }],
+    "object-curly-spacing": ["error", "always"],
+    "object-curly-newline": ["error", {
+        "ObjectExpression": { "multiline": true, "minProperties": 3 },
+        "ObjectPattern": { "multiline": true, "minProperties": 3 },
+        "ImportDeclaration": "never",
+        "ExportDeclaration": { "multiline": true, "minProperties": 3 }
+    }],
+    "space-before-function-paren": [
+      "error", {
+        "anonymous": "never",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
+    "space-in-parens": ["error", "never"],
+    "semi": 2,
+    "semi-style": ["error", "last"],
+    "no-trailing-spaces": "error",
+    "no-console": "warn"
+  }
+}

@@ -7,6 +7,7 @@ Mostly tailored for my personal use, but you're welcome to copy/use whatever you
 ### Index
 `/`
 * `utils.js` — collection of JS files that you'll ideally be able to `import` or `require()` into your project. I try to use valid JSDoc syntax to document the functions, so it _should_ be compatible with that if you use it.
+* `.eslintrc.json` — Basic `eslint` config file. This is lightly opinionated for ES5, so you may need to modify it to suit your project, but it's a good shell to get you started :)
 
 `JS-build-tools`
   * `package.json` — An example project starter for most modern javascript development. It's not opinionated toward React, Vue, or any other JS library, so you'll have to add those dependencies in yourself. NOTE! It does come with some basic commands in the scripts section, but you may need to tailor those to your needs.

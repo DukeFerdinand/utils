@@ -9,4 +9,4 @@ String.prototype.matchAll = String.prototype.matchAll || function (pattern) {
   return matches
 }
 var stringToTest = '<<INVALID FIELD [[Test]]>> test <<INVALID FIELD [[test]]>> <<INVALID FIELD [[test]]>>'
-console.log(stringToTest.matchAll(/<<.*?\[\[(.*?)(\]\])>>/g))
+console.log(stringToTest.matchAll(/<<.*?\[\[(.*?)\]\]>>/g))
